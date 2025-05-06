@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+}
+.card {
+    border-radius: 15px;
+    background: #ffffff;
+    color: black;
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
